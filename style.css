@@ -5,89 +5,171 @@
 }
 
 body {
-
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    line-height: normal;
+    background-color: #fff;
 }
 
 header {
+    height: 70px;
+    background-color: #2965f1;
+    padding: 23px 0;
+    margin-bottom: 60px;
     /* Стили для хедера */
 }
 
 header span {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
     /* Стили для текста в хедере IT-INCUBATOR */
 }
 
 .main-section {
+    background-color: #fafaff;
     /* Стили для первой секции */
 }
 
 .main-title {
+    font-weight: 700;
+    font-size: 48px;
+    color: #303030;
+    margin-bottom: 20px;
     /* Стили для заголовка в первой секции */
 }
 
 .main-text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #303030;
     /* Стили для текста в первой секции */
 }
 
 .main-image {
+    width: 715px;
+    height: 508px;
     /* Стили для изображения в первой секции */
 }
 
 
 .about-section {
+    padding: 100px 0;
+    background-color: #fff;
+    height: 883px;
     /* Стили для второй секции */
 }
 
 select {
+    width: 80px;
+    height: 57px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    width: 150px;
+    height: 36px;
+    appearance: none;
+    background-image: url("./assets/image/ep_arrow-down.svg");
+    background-repeat: no-repeat;
+    background-position: right 0 top 50%;
     /* Стили для выпадающего списка */
 }
 
 .section-title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #303030;
+    margin-bottom: 25px;
     /* Стили для заголовков во второй секции */
 }
 
 .frameworks-list {
+    list-style-image: url(./assets/image/solar_map-arrow-up-bold.svg) ;
+    margin-left: 22px;
+    color: #363940;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
     /* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
+    list-style-type: decimal;
+    list-style-position: outside;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
     /* Стили для нумерованного списка во второй секции */
 }
 
 .label {
+    font-weight: 400;
+    font-size: 16px;
+    color: #303030;
+    height: 19px;
     /* Стили для подписей чекбоксов */
 }
 
 .text-field {
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    width: 330px;
+    height: 36px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(48, 48, 48, 0.2);
     /* Стили для односточного поля ввода текста */
 }
 
 .btn {
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    background-color: #2965f1;
+    border-radius: 5px;
+    width: 125px;
+    height: 36px;
+    border: none;
     /* Стили для кнопки */
 }
 
 .line {
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    width: 1440px;
+    height: 0px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     /* Стили для линии */
 }
 
 table {
+    border-collapse: collapse;
+    margin-bottom: 100px;
+    
     /* Стили для таблицы */
 }
 
 th, td {
+    border: 1px solid #95a1bb;
+    width: 134px;
+    padding: 12px 13px 11px 15px;
+    text-align: left;
     /* Стили для ячеек таблицы */
 }
 
 footer {
+    background-color: rgba(163, 167, 255, 0.3);
+    padding: 25px 0;
     /* Стили для футера */
 }
 
 .footer-link {
+    font-weight: 400;
+    font-size: 14px;
+    color: #2965f1;
+    text-decoration: none;
     /* Стили для футера */
 }
-
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/VitaliyYasont/homework2.git
-git push -u origin main
