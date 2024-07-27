@@ -90,6 +90,7 @@ select {
     color: #363940;
     font-weight: 400;
     font-size: 16px;
+    padding: 0px 20px;
     /* Стили для маркированного списка во второй секции */
 }
 
