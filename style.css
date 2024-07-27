@@ -84,7 +84,7 @@ select {
     /* Стили для заголовков во второй секции */
 }
 
-.frameworks-list {
+.skills-list {
     list-style-image: url(./assets/image/solar_map-arrow-up-bold.svg) ;
     margin-left: 22px;
     color: #363940;
