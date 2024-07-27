@@ -9,6 +9,7 @@ body {
     font-style: normal;
     line-height: normal;
     background-color: #fff;
+    color: #303030;
 }
 
 header {
@@ -34,7 +35,6 @@ header span {
 .main-title {
     font-weight: 700;
     font-size: 48px;
-    color: #303030;
     margin-bottom: 20px;
     /* Стили для заголовка в первой секции */
 }
@@ -42,7 +42,7 @@ header span {
 .main-text {
     font-weight: 400;
     font-size: 18px;
-    color: #303030;
+    
     /* Стили для текста в первой секции */
 }
 
@@ -65,7 +65,6 @@ select {
     height: 57px;
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
     border: 1px solid rgba(48, 48, 48, 0.3);
     border-radius: 5px;
     width: 150px;
@@ -80,7 +79,6 @@ select {
 .section-title {
     font-weight: 700;
     font-size: 24px;
-    color: #303030;
     margin-bottom: 25px;
     /* Стили для заголовков во второй секции */
 }
@@ -91,7 +89,6 @@ select {
     color: #363940;
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
     /* Стили для маркированного списка во второй секции */
 }
 
@@ -101,14 +98,12 @@ select {
     padding-left: 20px;
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
     /* Стили для нумерованного списка во второй секции */
 }
 
 .label {
     font-weight: 400;
     font-size: 16px;
-    color: #303030;
     height: 19px;
     /* Стили для подписей чекбоксов */
 }
@@ -148,13 +143,14 @@ select {
 table {
     border-collapse: collapse;
     margin-bottom: 100px;
-    
+    width: 300px;
     /* Стили для таблицы */
 }
 
 th, td {
+    font-size: 14px;
     border: 1px solid #95a1bb;
-    width: 134px;
+    height: 40px;
     padding: 12px 13px 11px 15px;
     text-align: left;
     /* Стили для ячеек таблицы */
